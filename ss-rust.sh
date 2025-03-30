@@ -1,5 +1,4 @@
 #!/bin/sh
-# forum: https://1024.day
 
 if [[ $EUID -ne 0 ]]; then
     clear
@@ -80,6 +79,9 @@ cat >/etc/shadowsocks/config.json<<EOF
     "password":"$sspasswd",
     "timeout":600,
     "mode":"tcp_and_udp",
+    "reuse_port": true,
+    "fast_open": true,
+    "workers": 2,
     "method":"aes-128-gcm"
 }
 EOF
