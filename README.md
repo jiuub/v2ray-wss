@@ -5,20 +5,9 @@
 运行脚本：
 
 ```
-wget https://raw.githubusercontent.com/yeahwu/v2ray-wss/main/tcp-wss.sh && bash tcp-wss.sh
+wget https://raw.githubusercontent.com/jiuub/v2ray-wss/main/tcp-wss.sh && bash tcp-wss.sh
 ```
 
-**便宜VPS推荐：** https://hostalk.net/deals.html
-
-![image](https://github.com/user-attachments/assets/76396d58-3fef-4028-8a5f-f8c9260c76e5)
-
-已测试系统如下：
-
-Debian 9, 10, 11, 12
-
-Ubuntu 16.04, 18.04, 20.04, 22.04
-
-CentOS 7
 
 WSS客户端配置信息保存在：
 `cat /usr/local/etc/v2ray/client.json`
